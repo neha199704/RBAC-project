@@ -1,11 +1,14 @@
 Role-Based Access Control (RBAC) Dashboard
+
 This project is a simple Role-Based Access Control (RBAC) dashboard built using React. It allows users to log in as different roles and access specific permissions based on their selected role. The application manages user sessions using the js-cookie library.
 
 Features
 User login as different roles (e.g., Admin, Editor, Viewer).
 Role-based access control to manage:
-Users
-Roles
+
+ Users
+
+ Roles
 
 Session persistence using browser cookies (via js-cookie).
 Logout functionality to clear session data.
@@ -23,13 +26,18 @@ Setup Instructions
    Ensure you have the following installed:
 
 Node.js: Version 16 or higher
-npm: Version 8 or higher 2. Clone the Repository
+
+npm: Version 8 or higher 
+
+2. Clone the Repository
 
 git clone https://github.com/neha199704/RBAC-project.git
 
 3. Install Dependencies
 
-npm install 4. Install js-cookie
+npm install
+
+4. Install js-cookie
 Add the js-cookie library:
 
 npm install js-cookie
